@@ -13,6 +13,7 @@
 		F22C2FB826FFDC100076A861 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22C2FB626FFDC100076A861 /* Main.storyboard */; };
 		F22C2FBA26FFDC110076A861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22C2FB926FFDC110076A861 /* Assets.xcassets */; };
 		F22C2FBD26FFDC110076A861 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F22C2FBB26FFDC110076A861 /* LaunchScreen.storyboard */; };
+		F2D4FF7527010A2B00F9B61D /* sendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D4FF7427010A2B00F9B61D /* sendViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F22C2FB926FFDC110076A861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F22C2FBC26FFDC110076A861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F22C2FBE26FFDC110076A861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2D4FF7427010A2B00F9B61D /* sendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sendViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				F22C2FB926FFDC110076A861 /* Assets.xcassets */,
 				F22C2FBB26FFDC110076A861 /* LaunchScreen.storyboard */,
 				F22C2FBE26FFDC110076A861 /* Info.plist */,
+				F2D4FF7427010A2B00F9B61D /* sendViewController.swift */,
 			);
 			path = ShoppingList;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2D4FF7527010A2B00F9B61D /* sendViewController.swift in Sources */,
 				F22C2FB526FFDC100076A861 /* ViewController.swift in Sources */,
 				F22C2FB126FFDC100076A861 /* AppDelegate.swift in Sources */,
 				F22C2FB326FFDC100076A861 /* SceneDelegate.swift in Sources */,
